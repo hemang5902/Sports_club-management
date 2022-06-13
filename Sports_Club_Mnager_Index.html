@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Club Manager</title>
+    <!--google fonts-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <link rel="stylesheet" href="D:\Day\sports_club\css\SCM_style.css">
+    <link rel="stylesheet" href="D:\Day\sports_club\css\bootstrap-icons.css">
+    <link rel="stylesheet" href="D:\Day\sports_club\css\bootstrap.min.css">
+    <link rel="stylesheet" href="D:\Day\sports_club\css\boxicons.min.css">
+    <link rel="stylesheet" href="D:\Day\sports_club\css\boxicons.css">
+    <link rel="stylesheet" href="D:\Day\sports_club\css\swiper-bundle.min.css">
+    <link rel="stylesheet" href="D:\Day\sports_club\css\aos.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
+    <!-- ======= Top Bar ======= -->
+    <section id="topbar" class="d-flex align-items-center">
+        <div class="container d-flex justify-content-center justify-content-md-between">
+            <div class="contact-info d-flex align-items-center">
+                <i class='bx bx-envelope'></i><a href="sports.club@example.com">info@example.com</a>
+                <i class='bx bxs-mobile'></i> +91 5589 55488 55
+            </div>
+            <div class="social-links d-none d-md-block">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <h1 class="logo"><a href="">SportsClub</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">AboutUs</a></li>
+                    <li><a class="nav-link scrollto" href="Sports_Club_Mnager_Innerpage.html">Events</a>
+                    </li>
+                    <li><a class="nav-link scrollto" href="Sports_Club_Mnager_Gallery.html">Gallery</a>
+                    </li>
+                    <li><a class="nav-link scrollto" href="Sports_Club_Mnager_teams.html">Team</a>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <li class="dropdown"><a href="#"><span>More</span> <i class="bx bxs-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Dashboard</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <i class="bi mobile-nav-toggle bi-list"></i>
+            </nav>
+            <!-- .navbar -->
+        </div>
+    </header>
+    <!-- End Header -->
+    <main id="main">
+        <!--=======Main_Section=======-->
+        <section id="hero" class="d-flex align-items-center">
+            <div class="container position-relative aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+                <h1>Welcome to SportsClub</h1>
+                <h2>Are you ready to RUMBLE around ?</h2>
+                <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            </div>
+        </section>
+        <!-- End Hero -->
+
+        <section id="about" class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+                <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+                    <h1 class="title-font font-medium text-3xl text-gray-900">IET-DAVV presents IET Sports Club (ISC),a
+                        student organisation which conducts and organises sports events throughout the session.</h1>
+                    <p class="leading-relaxed mt-4">and many more information about the sports club.(That will be added
+                        afterwards)</p>
+                </div>
+                <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+                    <h2 class="text-gray-900 text-4xl font-bold title-font mb-5">Log In</h2>
+                    <div class="relative mb-4">
+                        <label for="full-name" class="leading-7 text-sm text-gray-600">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="email"
+                            class="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <div class="relative mb-4">
+                        <label for="password" class="leading-7 text-sm text-gray-600">Password</label>
+                        <input type="password" id="password" name="password" placeholder="password"
+                            class="w-full bg-white rounded border border-gray-300 focus:border-red-500 focus:ring-2 focus:ring-red-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <button
+                        class="text-white bg-red-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg">LogIn</button>
+                    <p class="text-xs text-gray-500 mt-3">Only for Authenticated User(Coaches and Admin user).</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container">
+
+                <div class="section-title">
+                    <span>Contact</span>
+                    <h2>Contact</h2>
+                    <p>Let's be the main wish that any desire prevents the recipient of the other</p>
+                </div>
+
+                <div class="row aos-init aos-animate" data-aos="fade-up">
+                    <div class="col-lg-6">
+                        <div class="info-box mb-4">
+                            <i class="bx bx-map"></i>
+                            <h3>Our Address</h3>
+                            <p>Takshashila Campus,Khandwa road, Indore, Madhya Pradesh 452020</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info-box  mb-4">
+                            <i class="bx bx-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>contact@example.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info-box  mb-4">
+                            <i class="bx bx-phone-call"></i>
+                            <h3>Call Us</h3>
+                            <p>+91 5589 55488 55</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row aos-init aos-animate" data-aos="fade-up">
+
+                    <div class="col-lg-6 ">
+                        <iframe class="mb-4 mb-lg-0"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.2656451339208!2d75.87759341496154!3d22.681152885127144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcc03e36712d%3A0xb6f3c2bf734a7c!2sIET%20DAVV!5e0!3m2!1sen!2sin!4v1649522583629!5m2!1sen!2sin"
+                            frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen=""></iframe>
+                    </div>
+                    <div class="col-lg-6">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Your Name" required="">
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Your Email" required="">
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                    placeholder="Subject" required="">
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                    required=""></textarea>
+                            </div>
+                            <div class="my-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div class="text-center"><button type="submit">Send Message</button></div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-info">
+                            <h3>SportsClub</h3>
+                            <p>
+                                Takshashila Campus, Khandwa road, <br>
+                                Indore, Madhya Pradesh 452020<br><br>
+                                <strong>Phone:</strong> +91 5589 55488 55<br>
+                                <strong>Email:</strong> info@example.com<br>
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#about">AboutUs</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a
+                                    href="C:\Users\HEMANG\Desktop\vsprojects\.vscode\Html_Css\Sports_Club_Mnager_Innerpage.html">Events</a>
+                            </li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Our Newsletter</h4>
+                        <p>Want notifications of our future Events? So subscribe now!</p>
+                        <form action="" method="post">
+                            <input type="email" placeholder="Write your email here! (NOT ACTIVE)" name="email"><input
+                                type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                © Copyright <strong><span>SportsClub</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!--If YOU WANAT TO GIVE CREDIT TO SOMEONE THEN U CAN GIVE THEM HERE-->
+            </div>
+        </div>
+    </footer>
+    <!--Js files-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
